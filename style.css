@@ -1,14 +1,15 @@
 /*common styles items*/
 
-body {margin: 0;
+body {
+    margin: 0;
     font-family: Lato;
+    width: 1920px;
 }
 
 /*header area styles*/
 
 .header_area {
     background: rgba(229, 84, 115, 0.10);
-    width: 1920px;
     height: 850px;
     display: flex;
     align-items: center;
@@ -50,7 +51,6 @@ body {margin: 0;
 /*hot deal area styles*/
 .hot_deal_area {
     background: rgba(229, 84, 115, 0.05);
-    width: 1922px;
     height: 620px;
     border-radius: 8px;
     display: flex;
@@ -92,9 +92,34 @@ body {margin: 0;
     margin-top: 50px;
 }
 
+/*instagram area styles*/
+.instagram_area {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.insta_content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta_content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+}
+.insta_img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.insta_img img {
+    margin: 30px;
+}
 /*footer area style*/
 .footer_area {
-    width: 1922px;
     height: 449px;
     background: #111010;
     text-align: center;
@@ -102,14 +127,11 @@ body {margin: 0;
     justify-content: center;
 }
 .footer_content {
-    width: 625px;
     margin-top: 150px;
 }
 .footer_title {
     color: #E55473;
-    font-family: Lato;
     font-size: 48px;
-    font-style: normal;
     font-weight: 800;
     margin: 0;
 }
@@ -119,16 +141,13 @@ body {margin: 0;
 .footer_para {
     width: 625px;
     color: rgba(255, 255, 255, 0.90);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 20px 0px;
+    margin: 20px 0px;                               
 }
 .copyright {
     color: rgba(255, 255, 255, 0.40);
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
-    line-height: normal;
 }
