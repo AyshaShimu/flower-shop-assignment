@@ -49,11 +49,13 @@ body {
 }
 
 /*featured area styles*/
+.featured_area {
+    margin: 100px 0px;
+}
 .featured_content_area {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 }
 .featured_content h2 {
     color: #272727;
@@ -70,8 +72,8 @@ body {
 .featured_img {
     display: flex;
     justify-content: center;
-    margin: 100px 0px;
     text-align: center;
+    margin-top: 20px;
 }
 .featured_img_one img {
     border-radius: 300px 300px 0px 0px;
